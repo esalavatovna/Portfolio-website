@@ -34,6 +34,6 @@ window.addEventListener("scroll",() =>
 });
 
 
-window.addEventListener("resize", ()=>{
-    window.location.reload();
-});
+// window.addEventListener("resize", ()=>{
+//     window.location.reload();
+// });
