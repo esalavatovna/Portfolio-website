@@ -9,12 +9,7 @@ const progressBarPercents = [90,89,85,60,50,70,50];
 
 window.addEventListener("scroll",() => 
    {
-//     mainFN();
-
-});
-
-const mainFN = ()=>{
-    if(window.pageYOffset >= navbarOffsetTop){
+ if(window.pageYOffset >= navbarOffsetTop){
         navbar.classList.add("sticky");
     }else{
         navbar.classList.remove("sticky")
@@ -34,10 +29,10 @@ const mainFN = ()=>{
               el.style.width = `${progressBarPercents[i]}%`;
               el.previousElementSibling.firstElementChild.textContent= progressBarPercents[i];
           });
-      }   
-};
+      } 
 
-mainFN();
+});
+
 
 window.addEventListener("resize", ()=>{
     window.location.reload();
