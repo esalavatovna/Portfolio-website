@@ -9,7 +9,7 @@ const progressBarPercents = [90,89,85,60,50,70,50];
 
 window.addEventListener("scroll",() => 
    {
-    mainFN();
+//     mainFN();
 
 });
 
